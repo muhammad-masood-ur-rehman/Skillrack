@@ -16,13 +16,12 @@ Input:
 Output:
 140.30
 Python:
-import math
+import math as m
 num=int(input())
-print("{:.2f}".format((math.sqrt(3)/4)*n*n))
-num=int(input())
-b=3**(1/2)
-b=b/4
-print('%.2f'%(b*num*num*))
+x=pow(num,2)
+y=(3/4)*x
+print("{:.2f}".format((m.sqrt(y))
+
 C:
 #include<stdio.h>
 #include<stdlib.h>
